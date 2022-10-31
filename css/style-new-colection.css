@@ -1,5 +1,8 @@
 body, html {
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 *, *::after, *::before{
@@ -63,7 +66,7 @@ body, html {
     cursor: pointer;
     border-radius: .25rem;
     padding: 0.5rem;
-    background-color: rgba(214, 24, 24, 0.2);
+    background-color: #e07777;
 }
 
 .carousel-button:hover,

@@ -11,30 +11,33 @@
 <body>
         <!--Mamedov Oleksandr div starts-->
         <section class="new-colection">
-            <div class="collection-title">
-                <h2 class="title-text">New arrivals<span class="point">.</span></h2>
-            </div>
-            <div class="divider-line" style="height: 2px; width: 100px; background-color: #e0e0e0"></div>
-            <p class="colection text">Be the first to buy new items by leading brands</p>
+            <div class="colection-conteiner">
+                <div class="collection-title">
+                    <h2 class="title-text">New arrivals<span class="point">.</span></h2>
+                </div>
+            <div class="divider-line" style="height: 2px;width: 33%; background-color:#e0e0e0"></div>
+            <p class="new_text">Be the first to buy new items by leading brands</p>
             <form action="#">
-                <button class="button-mor" type="submit">More Products</button>
+                <button class="button-mor" type="submit"><b>More Products</b></button>
             </form>
+        </div>
         <div class="carousil-colection">
             <div class="carousel">
                 <button class="carousel-button next" onclick="onNext();">🢂</button>
                 <button class="carousel-button prev" onclick="onPrev();">🢀</button>
-                <ul class="slides">
-                    <li class="slide" data-active>
-                        <img class="new-imegis" src="./img/adidas_black_trainer.jpg" alt="Adidas black">
-                        <p>Adidas Black Trainers</p>
-                        <span"><b>$60,00</b></span>
-                        <form action="#">
+                <div class="icon-colection">
+                    <ul class="slides">
+                        <li class="slide" data-active>
+                            <img class="new-imegis" src="./img/adidas_black_trainer.jpg" alt="Adidas black">
+                            <p class="new_text">Adidas Black Trainers</p>
+                            <span class="prise-new d-block w-50 mx-auto">$60,00</span>
+                            <form action="#">
                             <button class="button-basket" type="submit">Add to Cart</button>
                         </form>
                     </li>
                     <li class="slide">
                         <img src="./img/asics_jordan_2000.jpg" alt="Asics Jordan">
-                        <p>Asics Jordan 2000</p>
+                        <p class="new_text">Asics Jordan 2000</p>
                         <span class="prise-new d-block w-50 mx-auto">$60,00</span>
                         <form action="#">
                             <button class="button-basket" type="submit">Add to Cart</button>
@@ -42,7 +45,7 @@
                     </li>
                     <li class="slide">
                         <img src="./img/nike_winter_jacket_in_blue.jpg" alt="Nike winter">
-                        <p>Nike Winter Jacket in Blue</p>
+                        <p class="new_text">Nike Winter Jacket in Blue</p>
                         <span class="prise-new d-block w-50 mx-auto">$60,00</span>
                         <form action="#">
                             <button class="button-basket" type="submit">Add to Cart</button>
@@ -50,7 +53,7 @@
                     </li>
                     <li class="slide">
                         <img src="./img/puma_textile_running_shoes.jpg" alt="Puma textile">
-                        <p>Puma Textile Running Shoes</p>
+                        <p class="new_text">Puma Textile Running Shoes</p>
                         <span class="prise-new d-block w-50 mx-auto">$60,00</span>
                         <form action="#">
                             <button class="button-basket" type="submit">Add to Cart</button>
@@ -58,15 +61,16 @@
                     </li>
                     <li class="slide">
                         <img src="./img/reebok_red_duster.jpg" alt="Reebok red">
-                        <p>Reebok Red Duster</p>
+                        <p class="new_text">Reebok Red Duster</p>
                         <span class="prise-new d-block w-50 mx-auto">$60,00</span>
                         <form action="#">
                             <button class="button-basket" type="submit">Add to Cart</button>
                         </form>
                     </li>
-                </ul>
-            </div>
+                </div>
+            </ul>
         </div>
-      </section>
+    </div>
+</section>
 </body>
 </html>
